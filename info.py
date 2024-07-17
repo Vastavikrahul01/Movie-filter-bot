@@ -18,9 +18,9 @@ API_HASH = environ.get('API_HASH', '2494557bf21e6c5152f26070aa1a97c7')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6462391456').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
+USERNAME = environ.get('USERNAME', "https://telegram.me/Vastavikrahul")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002163781954'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+4RB2-U2o9yE4ZmQ9')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/VastavikMovieFlix')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001234567898').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rahul0304:rahul@cluster0.pqqgweh.mongodb.net/?retryWrites=true&w=majority")
 
@@ -31,7 +31,7 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.j
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/4dad0cc16f190468454ee.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002031180571'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001905670346'))
-URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
+URL = environ.get('URL', 'salty-millisent-vastavikbottdun-9c57f31c.koyeb.app')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
